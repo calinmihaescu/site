@@ -9,7 +9,9 @@
     <meta name="description" content="Store front for Bethany's Pie Shop">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lato:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
     <![endif]-->
@@ -35,7 +37,7 @@
         <aside id="leftmenu">
             <a href="index.html"><img src="images/bethanylogo.png" /></a>
             <header>
-                <h4 style="text-align: center;">Browse our pies</h4>
+                <h2 style="text-align: center;">Browse our pies</h2>
             </header>
             <ul>
                 <li><a href="pieoverview.html">All pies</a></li>
@@ -79,16 +81,22 @@
                     that our pies are absolutely the best.
                 </p>
 
-                <p>Download our full <a href="downloads/Price list.zip">price list</a></p>
+                <p name="price">Download our full <a href="downloads/Price list.zip">price list</a></p>
             </article>
 
             <section id="promos">
                 <h3 style="font-family:verdana;">&nbsp;Our weekly promotions</h3>
-                <h4>Cheese cake</h4>
-                $12.95 - serves 4<br>
-                <img src="https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecake.jpg" width="500"
+
+                <div class="promotion">
+                    <img src="https://gillcleerenpluralsight.blob.core.windows.net/files/cheesecake.jpg" width="500"
                     alt="Cheese cake with strawberry" height="300" />
+                <h2>Cheese cake</h2>
+                $12.95/ <del>$25.90</del> <br>
+                
+            </div>
+              
             </section>
+            
 
          
         </main>
@@ -96,7 +104,7 @@
             <p>Our address is <address>Bethany's Pie Shop - Bakery Street 555 Brussels Belgium</address>
             </p>
             <small>&copy;2020 Bethany's Pie Shop - All rights reserved</small>
-            <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
+            <p name="email">Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
             <p><small><a href="https://www.snowball.be">Created by Snowball</a></small></p>
         </footer>
     </div>
