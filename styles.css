@@ -1,11 +1,18 @@
+html {-webkit-text-size-adjust:100%; -ms-text-size-adjust: 100%;}
+* { -moz-box-sizing:border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
 body {
     margin-top: 0px;
-    font-family: 'Lato', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
     background-color: #e6e4d9;
     background-image: url('images/pattern.png');
+    
+    
 }
+
+
 
 #mainheader {
     background-color: #a593c2;
@@ -35,14 +42,11 @@ nav {
     margin-bottom: 20px;
 }
 
-footer {
-    clear: both;
-    width: 100%;
-}
+
 
 header,
-section,
 footer,
+section,
 aside,
 nav,
 main,
@@ -126,6 +130,8 @@ p {
     text-align: justify;
 }
 
+
+
 h3 {
     font-size: 22px;
 }
@@ -147,7 +153,7 @@ h1, h2, h3, h4 , h5, h6 {
     font-weight: normal;
 }
 
-h2,h4{
+h2, h4{
     text-align: center;
 }
 
@@ -164,10 +170,6 @@ h2,h4{
 
 .promotion img {
     width: 80%;
-}
-
-footer {
-    margin: 60px;
 }
 
 #sidebar-heading{
@@ -190,9 +192,28 @@ tr:nth-of-type(even) {
     background-color: #e0d7ef;
 }
 
-.email {
-    background-color: #116552;
-}
+.row {clear:both;}
+
+.column{float:left;}
+
+.large-3 {
+    width: 25%;
+} 
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+
+
 
 
 
